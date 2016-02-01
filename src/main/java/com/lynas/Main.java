@@ -8,7 +8,7 @@ import com.google.gson.GsonBuilder;
  */
 public class Main {
     public static void main(String[] args) {
-        Student student = new Student(1,"sazzad");
+        Student student = new Student(1, "sazzad");
         Gson gson = new GsonBuilder().create();
         System.out.println(gson.toJson(student));
     }
