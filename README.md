@@ -1,0 +1,1 @@
+mvn exec:java   (to run the project)
